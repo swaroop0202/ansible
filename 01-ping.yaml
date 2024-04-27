@@ -2,4 +2,4 @@
   hosts: 172.31.16.70 
   tasks:
 - name: ping a server
-   ansible.builtin.ping
+   ansible.builtin.ping:
