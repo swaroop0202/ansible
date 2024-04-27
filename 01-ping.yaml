@@ -1,6 +1,6 @@
 - name: ping a server
   hosts: 172.31.16.70 
   tasks:
-   - name: Example from an Ansible Playbook
-      ansible.builtin.ping
+  - name: Example from an Ansible Playbook
+     ansible.builtin.ping
    
