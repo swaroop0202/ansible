@@ -7,7 +7,7 @@
   - name: PASSWORD
     prompt: "please enter your password"
     private: true
-  task:
+  tasks:
   - name: prompt from user
     ansibile.builtin.debug:
       msg: "hi username is {{USERNAME}}, password is {{PASSWORD}}"     
