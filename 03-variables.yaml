@@ -1,8 +1,7 @@
 - name: variables in ansible
   hosts: localhost
-  vars:
-    person:  "rajesh"
-    object: "ball"
+  vars_file:
+    05-vars-file
   tasks:
   - name: variables 
     ansible.builtin.debug:

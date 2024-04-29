@@ -1,0 +1,5 @@
+- name: variables file
+  host: localhost
+  vars:
+    person: "chanti"
+    object: "wicket"
