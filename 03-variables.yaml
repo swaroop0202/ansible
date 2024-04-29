@@ -1,7 +1,7 @@
 - name: variables in ansible
   hosts: localhost
   vars:
-    05-vars-file
+    vars-file
   tasks:
   - name: variables 
     ansible.builtin.debug:
