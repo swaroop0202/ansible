@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
     person:  "rajesh"
-    objest: "ball"
+    object: "ball"
   tasks:
   - name: variables 
     ansible.builtin.debug:
