@@ -1,0 +1,12 @@
+- name: variables in ansible
+  hosts: localhost
+  vars:
+    person:  "rajesh"
+    object: "ball"
+  tasks:
+  - name: variables
+    vars:
+      person: "banti"
+      object: "bat" 
+    ansible.builtin.debug:
+      msg: "hello {{person}} this is the {{object}}"
