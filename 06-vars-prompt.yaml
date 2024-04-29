@@ -1,0 +1,13 @@
+- name: variables giving prompt
+  host: localhost
+  vars_prompt:
+  - name: USERNAME
+    prompt: "please enter your username"
+    private: false
+  - name: PASSWORD
+    prompt: "please enter your password"
+    private: true
+  task:
+  - name: prompt from user
+    ansibile.builtin.debug:
+      msg: "hi username is {{USERNAME}}, password is {{PASSWORD}}"     
