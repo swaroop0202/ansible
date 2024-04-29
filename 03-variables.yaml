@@ -1,6 +1,6 @@
 - name: variables in ansible
   hosts: localhost
-  vars_file:
+  vars:
     05-vars-file
   tasks:
   - name: variables 
